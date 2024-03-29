@@ -1,0 +1,33 @@
+" <leader> を <space> に変更
+let mapleader = " "
+
+" クリップボード設定
+set clipboard=unnamed
+
+" プラグイン有効化
+set NERDTree
+set easymotion
+set highlightedyank
+set ideajoin
+set argtextobj
+
+" highlightedyank設定
+let g:highlightedyank_highlight_duration = "1000"
+
+" ウィンドウ分割
+nnoremap ss <C-w>s
+nnoremap sv <C-w>v
+
+" ウィンドウ移動
+nnoremap sh <C-w>h
+nnoremap sj <C-w>j
+nnoremap sk <C-w>k
+nnoremap sl <C-w>l
+
+" タ切り替え
+nnoremap <C-l> :action NextTab<CR>
+nnoremap <C-h> :action PreviousTab<CR>
+
+" ピープ音削除
+set visualbell
+set noerrorbells
