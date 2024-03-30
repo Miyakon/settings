@@ -1,3 +1,6 @@
+" Source your .vimrc
+source ~/.vimrc
+
 " <leader> を <space> に変更
 let mapleader = " "
 
