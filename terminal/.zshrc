@@ -14,10 +14,15 @@ HISTSIZE=10000
 SAVEHIST=10000
 # 履歴を保存するファイルのパス
 HISTFILE=~/.zsh_history
+
 # 同じコマンドの重複を避ける
 setopt HIST_IGNORE_ALL_DUPS
 # コマンド実行時刻を記録
 setopt EXTENDED_HISTORY
+
+# ENVIRONMENT
+export CLICOLOR=1
+export LSCOLORS="Gxfxcxdxbxegedabagacad"
 
 # git on terminal
 source $(brew --prefix)/opt/zsh-git-prompt/zshrc.sh
