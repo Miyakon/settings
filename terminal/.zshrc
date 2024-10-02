@@ -3,10 +3,11 @@
 #   Caveatsの指示にしたがってchmodとrm実行 
 # brew install zsh-git-prompt
 
+### Template
+# alias
 alias ll='ls -al'
 alias zshrc='cp ~/.zshrc ~/back.zshrc && vim ~/.zshrc && . ~/.zshrc && echo "reloaded ~/.zshrc"'
 
-### Template
 # コマンド履歴のメモリ上のサイズ
 HISTSIZE=10000
 # ファイルに保存する履歴のサイズ
